@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-image: url(./images/backGround.jpg);">
+    <div id="mainDiv">
+        <h2>BMI Calculator</h2>
+        <label for="weight">Weight (lbs)</label>
+        <input id="weight" type="numbers"> <br>
+        <label for="height">Height (cms)</label>
+        <input id="height" type="numbers"> <br>
+        <button class="btn btn-success" onclick="calculatebmi()" >Submit</button>
+        <button class="btn btn-danger" onclick="reload()">Clear</button>
+        <h4 id="heading"></h4>
+        <p id="bmi-output"></p>
+        <p id="message"></p>
+    </div>
+</body>
+</html>

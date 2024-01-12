@@ -1,0 +1,13 @@
+body{
+    height: 500pt;
+    width: 1000pt;
+}
+
+#mainDiv{
+   background-color: aliceblue;
+   padding: 50px 50px;
+   margin: 390pt 300px;
+}
+.btn{
+    margin: 30px  50px;
+}
